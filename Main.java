@@ -25,9 +25,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Showroom showroom[] = new Showroom[5];
-        Employees employee[] = new Employees[5];
-        Cars car[] = new Cars[5];
+        Showroom showroom[] = new Showroom[1000];//Can create 1000 different showrooms
+        Employees employee[] = new Employees[10000];//Can add upto 10000 different employees
+        Cars car[] = new Cars[1000];//Can add upto 1000 different cars
         int car_counter = 0;
         int showroom_counter = 0;
         int employees_counter = 0;
